@@ -39,8 +39,7 @@ body {
 		display: block;
 		top: 5px;
 		width: 100%;
-		text-align: center;
-
+    text-align: center;
 }
 
 .nav-bar ul {
@@ -48,7 +47,6 @@ body {
   border-radius: 15px;
   box-shadow: 0px 0px 1.2px 1.2px rgba(218, 215, 215, 0.25);
   padding: 0 24px 0 24px;
-
 }
 
 .nav-bar li {
@@ -56,18 +54,26 @@ body {
   color: whitesmoke;
   text-align: center;
   padding: 0 24px 0 24px;
-
 }
 
 .nav-bar .link {
   display: block;
 	color: whitesmoke;
   font-size: 12px;
-	letter-spacing: 5px;
-	height: 75px;
-  line-height: 75px;
-	text-transform: uppercase;
-  text-decoration: none !important;
+	letter-spacing: 3px;
+	height: 55px;
+  line-height: 55px;
+	text-transform: uppercase; 
+}
+
+.nav-bar .link:hover {
+  color: aquamarine;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
 }
 
 
