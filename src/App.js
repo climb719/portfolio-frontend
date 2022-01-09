@@ -1,6 +1,6 @@
 import './App.css';
 import ProjectIndex from './containers/ProjectIndex';
-import Nav from './components/Nav';
+import {Nav, About, Home}  from './components'
 
 
 function App() {
@@ -8,9 +8,8 @@ function App() {
    
     <div className="App">
     <Nav />
-    <header className="App-header">
-       <h1>Portfolio</h1>
-    </header> 
+    <Home />
+    <About />
     <ProjectIndex />
       
     </div>
