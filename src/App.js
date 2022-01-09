@@ -1,6 +1,7 @@
 import './App.css';
 import ProjectIndex from './containers/ProjectIndex';
 import {Nav, About, Home}  from './components'
+import { Routes, Route } from "react-router-dom"
 
 
 
@@ -9,9 +10,11 @@ function App() {
    
     <div className="App">
     <Nav />
-    <Home />
-    <About />
-    <ProjectIndex />
+    <Routes>
+    <Route path="/" element={ <Home/> } />
+    <Route path="about" element={ <About/> } />
+    <Route path="projects" element={ <ProjectIndex/> } />
+  </Routes>
  
    
     
