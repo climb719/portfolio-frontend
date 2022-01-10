@@ -114,8 +114,8 @@ a:-webkit-any-link {
 .about-info {
   position: absolute;
   font-size: 15px;
-  top: 60%;
-  left: 30%;
+  top: 55%;
+  left: 35%;
   margin-right: -50%;
   width: 40%;
   padding: 10px;
@@ -127,7 +127,7 @@ a:-webkit-any-link {
 .profile-img img {
   position: absolute;
   top: 32%;
-  right: 10%;
+  right: 15%;
   border-radius: 50%;
   width: 300px;
   height: auto;
@@ -156,7 +156,7 @@ a:-webkit-any-link {
 
 .home-info-left {
   position: absolute;
-  left: 10%;
+  left: 15%;
   top: 40%;
   width: 20%;
  
@@ -165,12 +165,42 @@ a:-webkit-any-link {
 
 .home-info-right {
   position: absolute;
-  right: 10%;
+  right: 15%;
   top: 48%;
   width: 20%;
   font-family: 'The Nautigal', cursive;
   letter-spacing: 2px;
   font-size: 30px;
+}
+
+
+
+.card-container {
+  display:inline-grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 2em;
+  grid-column-gap: 2rem;
+  padding: 2em;
+  padding-top: 15%;
+  
+}
+
+
+
+.card {
+  text-align: center;
+  border: aquamarine 2px;
+  justify-self: center;
+  box-shadow: 4px 5px aquamarine;
+  background-color:lightsteelblue;
+  padding-bottom: 50px;;
+} 
+
+
+.card-text {
+  font-size: 12px;
+  padding: 15px;
 }
 
 
