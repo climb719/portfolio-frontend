@@ -3,7 +3,7 @@ import React from 'react'
 const About= props => {
     return (
      <div className="about">
-     <div className="about-img"> <img src="images/about.png" alt="original artwork"/></div>
+     <div className="profile-img"> <img src="images/profile.png" alt="my face"/></div>
      <h1 className="page-heading">About Me</h1>
      <div className="about-info">
      <ul>
