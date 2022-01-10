@@ -1,9 +1,10 @@
-
+import React from 'react'
 
 const About= props => {
     return (
      <div className="about">
-     <h1 className="about-heading">About me!</h1>
+     <div className="about-img"> <img src="images/about.png" alt="original artwork"/></div>
+     <h1 className="page-heading">About Me</h1>
      <div className="about-info">
      <ul>
      <li>Experience in React/Redux, JavaScript, and Ruby on Rails based programming with a background in Creative Art Therapy.</li>
