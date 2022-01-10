@@ -1,6 +1,6 @@
 import './App.css';
 import ProjectIndex from './containers/ProjectIndex';
-import { Nav, About, Home, Skills }  from './components'
+import { Nav, About, Home, Skills, Blog, Contact }  from './components'
 import { Routes, Route } from "react-router-dom"
 
 
@@ -15,6 +15,8 @@ function App() {
     <Route path="about" element={ <About/> } />
     <Route path="skills" element={ <Skills/> } />
     <Route path="projects" element={ <ProjectIndex/> } />
+    <Route path="blog" element={ <Blog/> } />
+    <Route path="contact" element={ <Contact/> } />
     </Routes>
  
    
